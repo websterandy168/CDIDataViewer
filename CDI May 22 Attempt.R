@@ -3,6 +3,7 @@ library(maps)
 library(mapdata)
 library(ggplot2)
 library(dplyr)
+df<-readRDS("Data/df.rds") 
 year <- "2018"
 strat<-"Overall"
 c<-1
